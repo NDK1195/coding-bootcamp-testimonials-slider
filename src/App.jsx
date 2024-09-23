@@ -62,7 +62,7 @@ function App() {
             transition={{ duration: 0.5, delay: 0.15, ease: easeInOut }}
             src={currentSlide === 0 ? imageTanya : imageJohn}
             alt="avatar"
-            className="relative max-w-[254px] lg:max-w-full"
+            className="relative max-w-[254px] shadow-2xl lg:max-w-full"
           />
           <div className="absolute -bottom-5 left-1/2 flex h-10 w-20 -translate-x-1/2 items-center justify-center rounded-[20px] bg-white shadow-lg lg:-bottom-7 lg:left-[72px] lg:h-14 lg:w-28 lg:translate-x-0 lg:rounded-[56px]">
             <div
@@ -96,7 +96,7 @@ function App() {
           />
 
           <div className="flex flex-col items-center gap-8 lg:items-start">
-            <p className="text-center text-lg font-light leading-6 text-dark-blue lg:text-left lg:text-[34px] lg:leading-[44px]">
+            <p className="text-center text-lg font-light leading-6 text-dark-blue lg:text-left lg:text-[32px] lg:leading-[44px]">
               {content.quote}
             </p>
 
